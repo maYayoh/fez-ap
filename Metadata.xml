@@ -5,6 +5,7 @@
    <Version>0.5.0</Version>
    <LibraryName>FezAP.dll</LibraryName>
    <Dependencies>
-      <DependencyInfo Name="HAT" MinimumVersion="1.0"/>
+      <DependencyInfo Name="HAT" MinimumVersion="1.2"/>
+      <DependencyInfo Name="FEZUG" MinimumVersion="0.1.6"/>
    </Dependencies>
 </Metadata>

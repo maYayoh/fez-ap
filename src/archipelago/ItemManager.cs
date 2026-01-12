@@ -208,7 +208,7 @@ namespace FEZAP.Archipelago
         {
             #if DEBUG
             // TODO: Some triles are weirdly absent until an input is given
-            WarpLevel.Warp(LevelManager.Name);
+            //WarpLevel.Warp(LevelManager.Name);
             #endif  // DEBUG
         }
 

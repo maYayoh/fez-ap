@@ -56,6 +56,10 @@
       <HintPath>$(ProjectDir)\dependencies\FezEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="FEZUG">
+      <HintPath>$(ProjectDir)\dependencies\FEZUG.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="FNA">
       <HintPath>$(ProjectDir)\dependencies\FNA.dll</HintPath>
       <Private>False</Private>

@@ -9,7 +9,6 @@ using FezEngine.Services.Scripting;
 using FezEngine.Structure;
 using FezEngine.Tools;
 using FezGame.Services;
-using FEZUG.Features;
 using FEZUG.Features.Console;
 using Microsoft.Xna.Framework.Audio;
 
@@ -259,7 +258,7 @@ namespace FEZAP.Archipelago
             }
 
             // Remove lightning flashes and make invisible triles visible
-            InvisibleTrilesDraw.WireframesEnabled = LevelManager.Rainy;
+            //InvisibleTrilesDraw.Instance.WireframesEnabled = LevelManager.Rainy;
             if (LevelManager.Rainy)
             {
                 LevelManager.Rainy = false;
